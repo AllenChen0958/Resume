@@ -44,6 +44,9 @@
             <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#project">Projects</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#education">Education</a>
           </li>
           <li class="nav-item">
@@ -69,18 +72,24 @@
           <div class="subheading mb-5">ELSA Lab
             <a href="mailto:allenchen0958@gmail.com">allenchen0958@gmail.com</a>
           </div>
-          <p class="lead mb-5">I am a master student of department of computer science. My field of research involving meta learning and reinforcement learning. In addition to my research, I also have experience in developing 3D game as well as a mobile app. Also, If you are a fan's of playing board game, it would be great to have fun with me.</p>
+          <p class="lead mb-5">I'm a Master's student at University of California, and have a keen interest in Machine Learning Operations. I have a solid year of experience on an MLOps team. Also I have conducted research in the areas of reinforcement learning and computer vision, resulting in publications at top-tier conferences such as IJCAI, ICML, and TNNLS. And, if you're into playing board games, I would love to join in for some fun.</p>
           <div class="social-icons">
+            
+            <a href="https://www.linkedin.com/in/allen-yumingchen/">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://www.instagram.com/">
+              <i class="fab fa-instagram"></i>
+            </a>
             <a href="https://www.facebook.com/profile.php?id=100006713400492">
               <i class="fab fa-facebook-f"></i>
             </a>
             <a href="https://github.com/AllenChen0958">
               <i class="fab fa-github"></i>
             </a>
-            <!-- <a href="https://www.linkedin.com/in/yu-ming-chen-6b8b6016b/">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="#">
+            
+            
+            <!-- <a href="#">
               <i class="fab fa-twitter"></i>
             </a> -->
             
@@ -89,21 +98,101 @@
       </section>
 
       <hr class="m-0">
-
+      
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
         <div class="my-auto">
           <h2 class="mb-5">Experience</h2>
           
+
+          <!--TSMC  -->
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">Taiwan Semiconductor Manufacturing Company (TSMC)</h3>
+              <div class="subheading mb-3">Software Engineer</div>
+              <ul>
+                <li>Assisted to enhance training platform to support distributed training with Kubernetes and Horovod.</li>
+                <li>Increased the recall rate of wafer defect detection to above 90% using YOLOv5.</li>
+                <li>Increased the accuracy of reticle/mask contour prediction to above 93 % using Unet.</li>
+                <li>Designed an encoder-decoder architecture to search for parameters of threshold voltage model and reduce cost (-50%) of using HSPICE license.</li>
+                <li>Formulated the furnace scheduling tasks as a graph problem, and optimized the schedule with graphical neural network (GNN) and reinforcement learning (RL).</li>
+                <li>Technologies involved: Python, Pytorch, Tensorflow, CNN, GNN, RL, Image Segmentation, Object Detection, Kubernetes, Horovod.</li>
+              </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2021 - August 2022</span>
+            </div>
+          </div>
+
+          <!--UMC  -->
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">United Microelectronics Corporation (UMC)</h3>
+              <div class="subheading mb-3">Software Engineer</div>
+              <ul>
+                <li>Established an alert system to send occupational accident warnings.</li>
+                <li>Extracted the body key-points from the CCTV videos using OpenPose and detect the act of falling with ResNet.</li>
+                <li>Technologies involved: Python, Tensorflow, OpenCV, OpenPose, CNN.</li>
+              </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2019 - November 2019</span>
+            </div>
+          </div>
+
+
+          <!--NTHU  -->
+          <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
+              <h3 class="mb-0">National Tsing Hua University (NTHU)</h3>
+              <div class="subheading mb-3">Graduate Research Assistant</div>
+              <ul>
+                <li>Designed an RL generator to construct synergistic skills for an RL agent.</li>
+                <li>Conducted qualitative, and quantitative analyses and submit the research results to the conference (IJCAI, ICML, TNNLS).</li>
+                <li>Technologies involved: Python, Tensorflow, RL, Latex.</li>
+
+              </ul>
+            </div>
+            <div class="resume-date text-md-right">
+              <span class="text-primary">September 2018 - August 2020</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="project">
+        <div class="my-auto">
+          <h2 class="mb-5">Projects</h2>
+          
+          
+          
+            
+          
+
           <!--NVIDIA Jetson Developer Challenge  -->
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">NVIDIA Jetson Developer Challenge</h3>
-              <!-- <div class="subheading mb-3">Intelitec Solutions</div> -->
-              <p>During 2018 NVIDIA Jetson Developer Challenge, I trained the robot to avoid the obstacles in its path as well as following a certain moving object with deep reinforcement learning and integrated to different kinds of robots including Segway and Kobuki.</p>
+              <!-- <div class="subheading mb-3">Software Engineer</div> -->
+              <!-- <p>During 2018 NVIDIA Jetson Developer Challenge, I trained the robot to avoid the obstacles in its path as well as following a certain moving object with deep reinforcement learning and integrated to different kinds of robots including Segway and Kobuki.</p> -->
+              <ul>
+                <li>Received the grand prize from a total of 114 teams from 80 countries.</li>
+                <li>Built a virtual environment with the Unity engine.</li>
+                <li>Trained a robot agent in a virtual environment using A3C.</li>
+                <li>Migrated the models trained in the virtualworld to the realworld by exploiting the resemblance of visual semantic segmentations</li>
+                <li>tween them.</li>
+                <li>Manipulated robot with robot operating system (ROS).</li>
+                <li>Submitted the result to the IJCAI conference.</li>
+                <li>Demo Video : <a href="https://youtu.be/8wCg_IvbODc">https://youtu.be/8wCg_IvbODc</a>  </li>
+                <li>Promotion Video : <a href="https://youtu.be/npP6rCpK29E">https://youtu.be/npP6rCpK29E</a> </li>
+                <li>Medium Report : <a href="https://reurl.cc/4gdpdL">https://reurl.cc/4gdpdL</a> </li>
+                <li>Technologies involved: Python, Tensorflow, OpenCV, C++, Image semantic segmentation, RL, ROS.</li>
+
+              </ul>
             </div>
-            <div class="resume-date text-md-right">
+            <!-- <div class="resume-date text-md-right">
               <span class="text-primary">July 2017 - May 2018</span>
-            </div>
+            </div> -->
           </div>
 
 
@@ -111,45 +200,77 @@
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Game Programming Competition</h3>
               <!-- <div class="subheading mb-3">Intelitec Solutions</div> -->
-              <p>In this project, I made a 3D horror game with Unity, Maya and other auxiliary programming tools, and won the Best Visual Effects, Best Auditory and Best Technique Awards.</p>
+              <!-- <p>In this project, I made a 3D horror game with Unity, Maya and other auxiliary programming tools, and won the Best Visual Effects, Best Auditory and Best Technique Awards.</p> -->
+              <ul>
+                <li> Receive Best Visual Effects, Best Auditory and Best Technique Awards.</li>
+                <li> Design a 3D horro game with Unity, Maya and other auxiliary programming tools.</li>
+                <li> Demo Video: <a href="https://youtu.be/hu9WOj6cMOM">https://youtu.be/hu9WOj6cMOM</a></li>
+                <li> Technologies involved: Unity, Maya, C# </li>
+              </ul>
             </div>
-            <div class="resume-date text-md-right">
+            <!-- <div class="resume-date text-md-right">
               <span class="text-primary">September 2017 - December 2017</span>
-            </div>
+            </div> -->
           </div>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">NVIDIA Robotic Challenge</h3>
               <!-- <div class="subheading mb-3">Intelitec Solutions</div> -->
-              <p>The challenge is composed of three part, in the part I was participated in, I have to control the laser by using motors and the image classification results to shoot the target pictures. The team won the 1st price in the competition.</p>
-            </div>
-            <div class="resume-date text-md-right">
-              <span class="text-primary">July 2016 - September 2017</span>
-            </div>
-          </div>
+              <!-- <p>The challenge is composed of three part, in the part I was participated in, I have to control the laser by using motors and the image classification results to shoot the target pictures. The team won the 1st price in the competition.</p> -->
+              <ul>
+                <li>Received the grand prize from a total of 21 teams.</li>
+                <li>Located the target image with ResNet and manipulate the laser pointing to the target.</li>
+                <li>Fit a piece of the puzzle with a robot arm using template matching and robot operating system.</li>
+                <li>Used OpenCV and Robot Operating System to control the robot to complete the track.</li>
+                <li>Demo Video: https://youtu.be/Hl0Hxu-HzKA</li>
+                <li>Technologies involved: Python, Tensorflow, OpenCV, C++, CNN, ROS.</li>
 
+              </ul>
+            </div>
+            <!-- <div class="resume-date text-md-right">
+              <span class="text-primary">July 2016 - September 2017</span>
+            </div> -->
+          </div>
+          
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
+              <h3 class="mb-0">Ontimer</h3>
+              
+              <!-- <p>I made a motorcycle burglar alarm which can ring the alarm bell and send a text message to the owner while the motorcycle was stolen by the burglar. Furthermore, it can also track the motorcycle using the app design by us, the device is well-designed that the tracker works properly even the burglar removes the alarm bell.</p> -->
+              <ul>
+                <li> Designed and built a online meeting mobile application. </li>
+                <li> Built the front-end and the application with React Native</li>
+                <li> Set-up the backend server with AWS</li>
+                <li> Technologies involved: React, React Native, HTML, CSS, JavaScript, RESTful API</li>
+              </ul>
+            </div>
+            <!-- <div class="resume-date text-md-right">
+              <span class="text-primary">may 2015 - July 2015</span>
+            </div> -->
+          </div>
+
+
+          <!-- <div class="resume-item d-flex flex-column flex-md-row mb-5">
+            <div class="resume-content mr-auto">
               <h3 class="mb-0">Software Studio &amp; IOT lab</h3>
-              <div class="subheading mb-3">Shout! Media Productions</div>
+              
               <p>I made a motorcycle burglar alarm which can ring the alarm bell and send a text message to the owner while the motorcycle was stolen by the burglar. Furthermore, it can also track the motorcycle using the app design by us, the device is well-designed that the tracker works properly even the burglar removes the alarm bell.</p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">may 2015 - July 2015</span>
             </div>
-          </div>
+          </div> -->
 
-          <div class="resume-item d-flex flex-column flex-md-row">
+          <!-- <div class="resume-item d-flex flex-column flex-md-row">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">HardWare Design Lab</h3>
-              <!-- <div class="subheading mb-3">Shout! Media Productions</div> -->
               <p>I made a remote control ship using FPGA board as main control board, and with some auxiliary components such as RF-module, circuit board, power bank...etc. By using Verilog as programming language, the remote control is able to drive the ship perfectly. The circuit board is welded on my own.</p>
             </div>
             <div class="resume-date text-md-right">
               <span class="text-primary">April 2015 - may 2015</span>
             </div>
-          </div>
+          </div> -->
 
         </div>
 
@@ -162,20 +283,20 @@
           <h2 class="mb-5">Education</h2>
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
-              <h3 class="mb-0">Tsing Hua University, Taiwan</h3>
-              <div class="subheading mb-3">Master</div>
-              <div>Department of Computer Science - Elsa Lab</div>
-              <p>GPA: 4.08/4.3</p>
+              <h3 class="mb-0">University of California, San Diego</h3>
+              <div class="subheading mb-3">Master of  Science</div>
+              <div>Department of Computer Science and Engineering</div>
+              <p>GPA: 4.0/4.0</p>
             </div>
             <div class="resume-date text-md-right">
-              <span class="text-primary">September 2018 - present</span>
+              <span class="text-primary">September 2022 - present</span>
             </div>
           </div>
 
           <div class="resume-item d-flex flex-column flex-md-row mb-5">
             <div class="resume-content mr-auto">
               <h3 class="mb-0">Tsing Hua University, Taiwan</h3>
-              <div class="subheading mb-3">Bachelor</div>
+              <div class="subheading mb-3">Bachelor of Science</div>
               <div>Department of Computer Science </div>
               <p>GPA: 4.08/4.3</p>
             </div>
@@ -243,25 +364,26 @@
               <i class="fab fa-npm"></i>
             </li>
           </ul> -->
+          
+           
+
+
+
 
           <div class="subheading mb-3">Programming Languages &amp; Tools</div>
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-check"></i>
-              Programming Language: C, C++, Java, Python, SQL, Verilog, C#, JavaScript</li>
+              Programming Language: C, C++, C#, Java, Go, Python, SQL, Verilog, JavaScript/HTML/CSS</li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Deep learning: Tensorflow</li>
+              Machine Learning: Tensorflow, Pytorch, Reinforcement Learning, Deep Learning</li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Reinforcement Learning: OpenAI</li>
+              Mobile Platform Programming: Android, React Native</li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Mobile platform programming: Android, React Native</li>
-
-              <li>
-              <i class="fa-li fa fa-check"></i>
-              Computer Graphics: Unity3D</li>
+              Game Design: Unity3D, Maya</li>
           </ul>
         </div>
       </section>
@@ -276,16 +398,16 @@
           <ul class="fa-ul mb-0">
             <li>
               <i class="fa-li fa fa-check"></i>
-              Meta Learning</li>
+              Machine Learning Operations</li>
             <li>
               <i class="fa-li fa fa-check"></i>
-              Reinforcement Learning</li>
+              Reinforcement Learning and Computer Vision</li>
+            <!-- <li>
+              <i class="fa-li fa fa-check"></i>
+              Image Classification</li> -->
             <li>
               <i class="fa-li fa fa-check"></i>
-              Image Classification</li>
-            <li>
-              <i class="fa-li fa fa-check"></i>
-              Robotic Operating System</li>
+              All Kinds of Board Games</li>
               <li>
           </ul>
         </div>
